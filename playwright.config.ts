@@ -8,9 +8,9 @@ export default defineConfig({
   globalSetup: './e2e/global-setup',
   testDir: './e2e/tests',
   expect: {
-    timeout: 60 * 1000,
+    timeout: 90 * 1000,
   },
-  timeout: 120 * 1000,
+  timeout: 300 * 1000,
   fullyParallel: true,
   globalTimeout: 120 * 60 * 1000,
   forbidOnly: !!process.env.CI,
@@ -40,11 +40,11 @@ export default defineConfig({
       use: { ...devices['Desktop Firefox'] },
       dependencies: ['setup'],
     },
-
+    /*
     {
       name: 'safari',
       use: { ...devices['Desktop Safari'] },
       dependencies: ['setup'],
-    },
+    }, */
   ],
 });

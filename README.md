@@ -48,7 +48,7 @@ For running the app in docker, the necessary docker images can be accessed at my
 
 ### Environment Variables
 
-Depending on the context in which you are running the app, certain environamental variables must be provided:
+Depending on the context in which you are running the app, certain environmental variables must be provided:
 
 | VARIABLE              | DESCRIPTION                                                                       | RUN LOCALLY | RUN IN DOCKER | RUN E2E TESTS |
 | --------------------- | --------------------------------------------------------------------------------- | :---------: | :-----------: | :-----------: |
